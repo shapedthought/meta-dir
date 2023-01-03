@@ -1,0 +1,16 @@
+[package]
+name = "meta-dir"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jwalk = "0.8.1"
+anyhow = "1.0.58"
+indicatif = "0.17.1"
+clap = {version="4.0.32", features=["derive"]}
+rayon = "1.5.3"
+chrono = "0.4"
+serde = { version = "1", features = ["derive"] }
+csv = "1.1.6"
